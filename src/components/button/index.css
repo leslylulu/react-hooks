@@ -1,0 +1,45 @@
+/* Basic button styles */
+.button {
+	padding: 10px 20px;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+	font-size: 16px;
+	transition: background-color 0.3s ease;
+}
+
+/* Primary button */
+.button-primary {
+	background-color: #007bff;
+	/* Example blue color */
+	color: #fff;
+}
+
+.button-primary:hover {
+	background-color: #0056b3;
+	/* Darker blue on hover */
+}
+
+/* Secondary button */
+.button-secondary {
+	background-color: #6c757d;
+	/* Example gray color */
+	color: #fff;
+}
+
+.button-secondary:hover {
+	background-color: #5a6268;
+	/* Darker gray on hover */
+}
+
+/* Default button */
+.button-default {
+	background-color: #f8f9fa;
+	/* Example light gray color */
+	color: #343a40;
+}
+
+.button-default:hover {
+	background-color: #e2e6ea;
+	/* Slightly darker gray on hover */
+}
